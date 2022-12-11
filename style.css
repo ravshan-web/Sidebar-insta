@@ -1,0 +1,93 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+nav{
+    padding: 30px 15px 30px 15px;
+    background-color: white;
+    border-right: 1px solid rgba(175, 175, 175, 0.355);
+    /* position: fixed; */
+    left: 0;
+    min-height: 100vh;
+    width: 245px;
+    position: absolute;
+    left: -245px;
+}
+/* closing */
+.toggle-nav{
+    position: absolute;
+    left: 0;
+    transition: all 0.6s ease-out;
+}
+
+.nav__ul li{
+    padding: 10px 30px 10px 20px;
+    /* height: 50px; */
+    margin-top: 12px;
+}
+
+.nav__ul li:hover{
+    background-color: rgba(73, 70, 70, 0.074);
+    border-radius: 30px;
+}
+
+
+.nav__ul li a{
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav__ul li:nth-child(9){
+    margin-top: 60px;
+}
+/* ICONS CLASS */
+.bi{
+    font-size: 24px;
+    padding-right: 10px;
+}
+/* LOGO */
+.logo__instagram{
+    margin-bottom: 30px;
+    max-width: 150px;
+    padding-left: 20px;
+}
+
+.logo__img{
+    width: 100%;
+}
+
+
+/* TOOGLE MENU */
+.toggle__menu{
+    /* background-color: aqua; */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /* background-color: red; */
+    width: 50px;
+    height: 50px;
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+    margin: 10px 0px;
+    background-color: black;
+    border-radius: 2.5px;
+    box-shadow: 0px 0px 20px 2px silver;
+}
